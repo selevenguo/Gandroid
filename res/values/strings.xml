@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Gandroid</string>
+
+    <!-- 共用 -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="call">呼叫</string>
+    <string name="open">打开</string>
+    <string name="delete">删除</string>
+    <string name="loading">加载中，请稍后...</string>
+    
+    <!-- 警告 -->
+    
+    
+    <!-- 测试 -->
+    <string name="title">阿盛大客户三大asdasdasdasdasdasd开速度</string>
+</resources>

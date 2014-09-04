@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.name.projectname.widget.loadingImageView.core.LoadingImageView
+            xmlns:liv="http://schemas.android.com/apk/res-auto"
+            liv:progressColor="#ff0000"
+            liv:progressStorkeColor="#00ff00"
+            liv:progressWidth="6"
+            liv:progressStorkeWidth="2"
+            liv:progresslength="100"
+            android:id="@+id/iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ff0000" />
+    </LinearLayout>
+
+</LinearLayout>

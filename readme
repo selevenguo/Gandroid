@@ -1,0 +1,24 @@
+┬│└├
+com.name.projectname 工程主体
+ │          ├.adapter 适配器
+ │          ├.data 全局数据和临时数据
+ │          ├.db 数据库相关操作
+ │          ├.entity 对象
+ │          ├.exception 自定义异常
+ │          ├.net 网络操作
+ │          ├.reciever 自定义广播
+ │          ├.service 自定义服务
+ │          ├.ui 界面（activity、fragment）
+ │          ├.util 工具类
+ 					.universalimageloader 网络图片加载
+ │          ├.widget 自定义和第三方控件
+ │          │   ├.loadingImageView 加载图片显示进度的imageview
+ │          │   ├.photoView 展示图片，双击放大，手势可控制缩放，左右切换图片（放大时也可以），需放在HackyViewPager中
+ │          │   │
+ │          │   └HackyViewPager viewpager，配合photoView使用来达到切换图片效果
+ │          │        
+ │          ├BaseActivity 基activity
+ │          ├GApplication 本项目Application
+ │          └IBase 跟activity和fragment需实现本接口的方法
+ │
+ └

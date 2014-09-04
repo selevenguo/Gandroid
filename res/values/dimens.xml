@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 共用 -->
+    <dimen name="dp_screen_padding_lr">10dp</dimen>
+    
+    <!-- title -->
+    <dimen name="dp_title_view_margin">5dp</dimen>
+    <dimen name="dp_title_text_width">150dp</dimen>
+    <dimen name="sp_title_textsize">16sp</dimen>
+</resources>

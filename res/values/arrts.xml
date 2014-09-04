@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- loadingImageView -->
+    <!-- 进度条颜色 -->
+    <declare-styleable name="loadingImageView">
+        <attr name="progressColor" format="reference|color" />
+        <attr name="progressStorkeColor" format="reference|color" />
+        <attr name="progressWidth" format="reference|integer" />
+        <attr name="progressStorkeWidth" format="reference|integer" />
+        <attr name="progresslength" format="reference|integer" />
+    </declare-styleable>
+
+</resources>

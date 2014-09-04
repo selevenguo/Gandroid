@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="PutErrorParamsException_errorlenth">参数错误，所传入参数非2的倍数!</string>
+    <string name="PutErrorParamsException_errorparam">参数错误，参数需按照key,value,key,value格式进行传入，并且key必须为字符串类型!</string>
+    <string name="StringAdapterException_errorparam">你的list类型不是String，请务必设置IMGetString并重写其方法来告诉我你的String是什么!</string>
+</resources>
