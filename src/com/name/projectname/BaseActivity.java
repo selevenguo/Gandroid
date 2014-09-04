@@ -100,8 +100,7 @@ public abstract class BaseActivity extends Activity implements IBase {
 	}
 
 	/** 获取传递参数，tampcache传递 **/
-	public void getParams() {
-	}
+	public abstract void getParams();
 
 	/** findviewbyid **/
 	public abstract void findView();
