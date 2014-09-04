@@ -8,6 +8,13 @@
         android:minSdkVersion="11"
         android:targetSdkVersion="19" />
 
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
     <!-- 读取手机状态信息 -->
     <uses-permission android:name="android.permission.RESTART_PACKAGES" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />

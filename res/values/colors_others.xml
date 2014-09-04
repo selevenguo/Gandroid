@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- 支付宝 -->
     <color name="dialog_tiltle_blue">#2277BB</color>
-    
+
+    <!-- jazzyviewpager -->
+    <color name="holo_blue">#FF33E5B5</color>
+
 </resources>

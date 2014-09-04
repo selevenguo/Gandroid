@@ -304,14 +304,14 @@ public abstract class BaseActivity extends Activity implements IBase {
 	@Override
 	public void defaultActIn() {
 		this.overridePendingTransition(R.anim.slide_in_from_right,
-				R.anim.slide_out_to_bottom);
+				R.anim.slide_out_to_stack);
 	}
 
 	/** 出场动画 **/
 	@Override
 	public void defaultActout() {
-		this.overridePendingTransition(R.anim.slide_in_from_bottom,
-				R.anim.slide_in_from_right);
+		this.overridePendingTransition(R.anim.slide_in_from_stack,
+				R.anim.slide_out_to_right);
 	}
 
 	/** 如需传参数，可在startact前调用此方法 **/
