@@ -107,6 +107,19 @@ public class TitleView extends LinearLayout {
 		}
 	}
 
+	public int getBtnId(int whichBtn) {
+		switch (whichBtn) {
+		case LEFT:
+			return btn_back.getId();
+		case RIGHT1:
+			return btn_right1.getId();
+		case RIGHT2:
+			return btn_right2.getId();
+		default:
+			return -1;
+		}
+	}
+
 	private Button getBtn(int whichBtn) {
 		switch (whichBtn) {
 		case LEFT:

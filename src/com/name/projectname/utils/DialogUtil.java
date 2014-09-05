@@ -27,7 +27,7 @@ public class DialogUtil {
 	}
 
 	public static ProgressDialog createProgressDialog(Context context, int themeId) {
-		ProgressDialog progressDialog = new ProgressDialog(context);
+		ProgressDialog progressDialog = new ProgressDialog(context,themeId);
 		Drawable drawable = context.getResources().getDrawable(
 				R.anim.loading_animation);
 		progressDialog.setIndeterminateDrawable(drawable);

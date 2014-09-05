@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- loadingImageView -->
+    <!-- 进度条颜色 -->
+    <declare-styleable name="loadingImageView">
+        <attr name="progressColor" format="reference|color" />
+        <attr name="progressStorkeColor" format="reference|color" />
+        <attr name="progressWidth" format="reference|integer" />
+        <attr name="progressStorkeWidth" format="reference|integer" />
+        <attr name="progresslength" format="reference|integer" />
+    </declare-styleable>
+    <!-- pulltorefresh -->
+    <declare-styleable name="PullToRefresh">
+        <attr name="ptrRefreshableViewBackground" format="reference|color" />
+        <attr name="ptrHeaderBackground" format="reference|color" />
+        <attr name="ptrHeaderTextColor" format="reference|color" />
+        <attr name="ptrHeaderSubTextColor" format="reference|color" />
+        <attr name="ptrMode">
+            <flag name="disabled" value="0x0" />
+            <flag name="pullFromStart" value="0x1" />
+            <flag name="pullFromEnd" value="0x2" />
+            <flag name="both" value="0x3" />
+            <flag name="manualOnly" value="0x4" />
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+        </attr>
+        <attr name="ptrShowIndicator" format="reference|boolean" />
+        <attr name="ptrDrawable" format="reference" />
+        <attr name="ptrDrawableStart" format="reference" />
+        <attr name="ptrDrawableEnd" format="reference" />
+        <attr name="ptrOverScroll" format="reference|boolean" />
+        <attr name="ptrHeaderTextAppearance" format="reference" />
+        <attr name="ptrSubHeaderTextAppearance" format="reference" />
+        <attr name="ptrAnimationStyle">
+            <flag name="rotate" value="0x0" />
+            <flag name="flip" value="0x1" />
+        </attr>
+        <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean" />
+        <attr name="ptrListViewExtrasEnabled" format="reference|boolean" />
+        <attr name="ptrRotateDrawableWhilePulling" format="reference|boolean" />
+        <attr name="ptrAdapterViewBackground" format="reference|color" />
+        <attr name="ptrDrawableTop" format="reference" />
+        <attr name="ptrDrawableBottom" format="reference" />
+        <attr name="prtTextMode">
+            <flag name="showDefault" value="0x0" />
+            <flag name="showUnChange" value="0x1" />
+            <flag name="unShowAnything" value="0x2" />
+        </attr>
+        <!-- 以下2属性需配合prtTextMode方可生效 -->
+        <attr name="ptrHeaderText" format="string" />
+        <attr name="ptrFooterText" format="string" />
+        <!-- 是否显示等待动画 -->
+        <attr name="ptrShowHeaderImage" format="boolean" />
+    </declare-styleable>
+
+</resources>

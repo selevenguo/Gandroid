@@ -105,6 +105,9 @@ public abstract class BaseActivity extends Activity implements IBase {
 	/** findviewbyid **/
 	public abstract void findView();
 
+	/** 设置监听事件 **/
+	public abstract void setListener();
+
 	/** 初始化相关操作 **/
 	public abstract void init();
 
@@ -129,6 +132,12 @@ public abstract class BaseActivity extends Activity implements IBase {
 		titleView.setTitleBtnVisibility(whichBtn, visibility);
 	}
 
+	
+	/** 获取btn的id **/
+	public int getBtnId(int whichBtn) {
+		return titleView.getBtnId(whichBtn);
+	}
+	
 	/** 设置title内容 **/
 	public void setTitle(int whichTitle, String title) {
 		titleView.setTitle(whichTitle, title);

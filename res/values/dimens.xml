@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <!-- 共用 -->
     <dimen name="dp_screen_padding_lr">10dp</dimen>
-    
+
     <!-- title -->
     <dimen name="dp_title_view_margin">5dp</dimen>
     <dimen name="dp_title_text_width">150dp</dimen>
     <dimen name="sp_title_textsize">16sp</dimen>
+
+    <!-- 引导界面 -->
+    <dimen name="dp_btn_margin_right">20dp</dimen>
+
+    <!-- 第三方 -->
+    <!-- pulltorefresh -->
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
 </resources>

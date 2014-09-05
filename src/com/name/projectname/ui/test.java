@@ -54,6 +54,9 @@ public class test extends BaseActivity {
 		lv = (ListView) f(R.id.lv);
 	}
 
+	public void setListener() {
+	}
+
 	@Override
 	public void init() {
 		UmengUpdateAgent.update(this);
